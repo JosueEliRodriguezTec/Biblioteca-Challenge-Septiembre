@@ -56,23 +56,22 @@ touch-action: none;
     }
 
     .box {
-        /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
-        /* border: 1px solid white; */
-        z-index: 1;
-        height: 60px;
-        width: 80px;
-        background-size: cover;
-        object-fit: cover;
-        cursor: crosshair;
-        width: 50px;
-        -webkit-user-drag:none;
+    z-index: 1;
 
-    user-select:none;
+    width: 50px;
+    height: 50px;
 
-    -webkit-user-select:none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 
-    -webkit-touch-callout:none;
-    }
+    cursor: crosshair;
+
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
 
     .flow {
         z-index: 1;
