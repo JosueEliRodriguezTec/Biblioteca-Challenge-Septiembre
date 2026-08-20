@@ -45,7 +45,10 @@ touch-action: none;
         padding: 30px 10px;
         width: fit-content;
         border-radius: 20px;
-        background-color: rgba(247, 224, 245, 0.532);
+        background-image: url("img/fondo-septiembre.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
         gap: 5px;
         display: grid;
         /* border: 2px solid red; */
