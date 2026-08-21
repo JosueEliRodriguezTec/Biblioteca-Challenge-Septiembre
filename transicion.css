@@ -6,7 +6,7 @@ body{
 
     font-family:Arial, Helvetica, sans-serif;
 
-    background:#4d9de0;
+    background-image:url("img/transicionmex.png");
     display:flex;
 
     justify-content:center;
