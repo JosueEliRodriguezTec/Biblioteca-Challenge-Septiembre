@@ -1125,9 +1125,10 @@ body{
 @media (max-width: 768px) {
 
     body {
-        background-position: center center;
-        background-size: cover;
+        background-position: center top;
+        background-size: 100% auto;
         background-repeat: no-repeat;
+        background-color: white;
     }
 
 }
