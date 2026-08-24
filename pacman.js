@@ -148,12 +148,15 @@ function verificarVictoria(){
     mostrarVictoria();
 
 }
+function mostrarVictoria(){
 
-   function mostrarVictoria(){
+    // Marcar que el Nivel 2 fue completado
+    sessionStorage.setItem("nivel2Completado", "true");
 
     document.getElementById("medallaPlata").style.display = "flex";
 
     document.getElementById("totalMonedas").textContent = monedas;
+
     confetti({
 
         particleCount:250,
