@@ -26,7 +26,7 @@ const preguntas = [
 
         correcta: 0,
 
-        libro: "https://libbyapp.com/search/bibliotecatec/spotlight-books/page-1/5305833"
+        libro: "https://libbyapp.com/search/bibliotecatec/search/query-mexico/page-1/4838661"
     },
 
     {
@@ -41,7 +41,7 @@ const preguntas = [
 
         correcta: 0,
 
-        libro: "https://libbyapp.com/search/bibliotecatec/spotlight-books/page-1/3466096"
+        libro: "https://libbyapp.com/search/bibliotecatec/search/query-mexico/page-1/9251106"
     },
 
     {
@@ -56,7 +56,7 @@ const preguntas = [
 
         correcta: 0,
 
-        libro: "https://libbyapp.com/search/bibliotecatec/spotlight-books/page-1/5485309"
+        libro: "https://libbyapp.com/search/bibliotecatec/search/query-arte%20mexicana/page-1/6451593"
     },
 
     {
@@ -71,7 +71,7 @@ const preguntas = [
 
         correcta: 0,
 
-        libro: "https://libbyapp.com/search/bibliotecatec/spotlight-books/page-1/5807900"
+        libro: "https://libbyapp.com/search/bibliotecatec/search/query-arte%20mexicana/page-1/6197619"
     },
 
     {
@@ -86,7 +86,7 @@ const preguntas = [
 
         correcta: 0,
 
-        libro: "https://libbyapp.com/search/bibliotecatec/spotlight-books/page-1/5305833"
+        libro: "https://libbyapp.com/search/bibliotecatec/search/query-mexicanos/page-1/7616447"
     },
 
     {
@@ -101,7 +101,7 @@ const preguntas = [
 
         correcta: 0,
 
-        libro: "https://libbyapp.com/search/bibliotecatec/spotlight-books/page-1/3466096"
+        libro: "https://libbyapp.com/search/bibliotecatec/search/query-mexicanos/page-1/4768361"
     },
 
     {
@@ -131,7 +131,7 @@ const preguntas = [
 
         correcta: 0,
 
-        libro: "https://libbyapp.com/search/bibliotecatec/spotlight-books/page-1/5807900"
+        libro: "https://libbyapp.com/search/bibliotecatec/search/query-mexicanos/page-1/5224628"
     }
 
 ];
