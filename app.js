@@ -466,7 +466,7 @@ btnContinuarLogin.addEventListener("click", function () {
 });
 
 function terminarNivel() {
-
+    sessionStorage.setItem("nivel1Completado", "true");
     jugador.monedas = 15;
 
     document.getElementById("coins").innerHTML =
