@@ -19,7 +19,7 @@ if(autorizado !== "true"){
     );
 
     window.location.href =
-        "https://josueelirodrigueztec.github.io/BiblioPrepaTec/";
+        "https://josueelirodrigueztec.github.io/Biblioteca-Challenge-Septiembre/index.html";
 
 }
 
