@@ -363,6 +363,8 @@ firstBox = null;
     
 function irLibros() {
 
+    sessionStorage.setItem("challengeIniciado", "true");
+
     window.location.href = "libros.html";
 
 }
