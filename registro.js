@@ -27,7 +27,7 @@ const formulario = document.getElementById("formRegistro");
 const mensajeFinal = document.getElementById("mensajeFinal");
 const btnBiblioteca = document.getElementById("btnBiblioteca");
 
-const TEMPORADA_ACTUAL = "México";
+const TEMPORADA_ACTUAL = "Septiembre";
 
 let satisfaccion = "";
 
