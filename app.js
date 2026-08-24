@@ -403,7 +403,37 @@ const btnIniciarJuego =
    USUARIO ABRE LIBBY EN NUEVA PESTAÑA
 ========================================= */
 
-btnLoginElibro.addEventListener("click", function () {
+const librosLogin = [
+
+    "https://elibro.net/es/ereader/consorcioitesm/129013",
+
+    "https://elibro.net/es/ereader/consorcioitesm/193713",
+
+    "https://elibro.net/es/ereader/consorcioitesm/74755",
+
+    "http://elibro.net/es/ereader/consorcioitesm/194942",
+
+    "https://elibro.net/es/ereader/consorcioitesm/279448"
+
+];
+
+
+btnLoginElibro.addEventListener("click", function (e) {
+
+    e.preventDefault();
+
+    const indiceAleatorio =
+        Math.floor(Math.random() * librosLogin.length);
+
+    const libroAleatorio =
+        librosLogin[indiceAleatorio];
+
+    window.open(
+        libroAleatorio,
+        "_blank",
+        "noopener"
+    );
+
 
     // Mostrar botón para continuar
     btnLoginElibro.style.display = "none";
