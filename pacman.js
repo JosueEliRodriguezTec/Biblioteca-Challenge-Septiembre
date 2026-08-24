@@ -406,16 +406,24 @@ if(valor === 3){
 
     mostrarMonedas();
 
-    const indiceAleatorio =
-        Math.floor(Math.random() * libros.length);
+    const librosDisponibles =
+        libros.filter(libro => !libro.leido);
 
-    const libroAleatorio =
-        libros[indiceAleatorio];
+    if(librosDisponibles.length > 0){
 
-    abrirLibro(libroAleatorio.url);
+        const indiceAleatorio =
+            Math.floor(Math.random() * librosDisponibles.length);
+
+        const libroAleatorio =
+            librosDisponibles[indiceAleatorio];
+
+        libroAleatorio.leido = true;
+
+        abrirLibro(libroAleatorio.url);
+
+    }
 
 }
-
     // borrar posición anterior
     mapa[pacmanFila][pacmanColumna] = 0;
 
