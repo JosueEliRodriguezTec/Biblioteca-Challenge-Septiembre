@@ -342,7 +342,7 @@ function selectBox(e) {
 
     if (!firstBox) {
         firstBox = box;
-        box.style.outline = "3px solid white"; // solo visual
+        box.style.outline = "3px solid #006847"; // solo visual
         return;
     }
 
