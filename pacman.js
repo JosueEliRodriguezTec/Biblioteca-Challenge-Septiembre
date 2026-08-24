@@ -406,7 +406,13 @@ if(valor === 3){
 
     mostrarMonedas();
 
-    abrirLibro(libros[0].url);
+    const indiceAleatorio =
+        Math.floor(Math.random() * libros.length);
+
+    const libroAleatorio =
+        libros[indiceAleatorio];
+
+    abrirLibro(libroAleatorio.url);
 
 }
 
