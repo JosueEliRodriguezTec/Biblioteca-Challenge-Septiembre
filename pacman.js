@@ -171,22 +171,22 @@ function verificarVictoria(){
 let libros = [
     {
         id: 1,
-        url: "https://libbyapp.com/search/bibliotecatec/spotlight-books/page-1/5305833",
+        url: "https://libbyapp.com/search/bibliotecatec/search/query-mexico/page-1/6541045",
         leido: false
     },
     {
         id: 2,
-        url: "https://libbyapp.com/search/bibliotecatec/spotlight-books/page-1/3466096",
+        url: "https://libbyapp.com/search/bibliotecatec/search/query-mexico/page-1/2883336",
         leido: false
     },
     {
         id: 3,
-        url: "https://libbyapp.com/search/bibliotecatec/spotlight-books/page-1/5485309",
+        url: "https://libbyapp.com/search/bibliotecatec/search/query-mexico/page-1/2893386",
         leido: false
     },
     {
         id: 4,
-        url: "https://libbyapp.com/search/bibliotecatec/spotlight-books/page-1/5807900",
+        url: "https://libbyapp.com/search/bibliotecatec/search/query-mexico/page-1/508405",
         leido: false
     }
 ];
