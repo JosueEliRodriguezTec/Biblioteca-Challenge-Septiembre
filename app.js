@@ -418,9 +418,7 @@ const librosLogin = [
 ];
 
 
-btnLoginElibro.addEventListener("click", function (e) {
-
-    e.preventDefault();
+btnLoginElibro.addEventListener("click", function () {
 
     const indiceAleatorio =
         Math.floor(Math.random() * librosLogin.length);
@@ -428,12 +426,8 @@ btnLoginElibro.addEventListener("click", function (e) {
     const libroAleatorio =
         librosLogin[indiceAleatorio];
 
-    window.open(
-        libroAleatorio,
-        "_blank",
-        "noopener"
-    );
-
+    // Asignar la liga seleccionada al botón
+    btnLoginElibro.href = libroAleatorio;
 
     // Mostrar botón para continuar
     btnLoginElibro.style.display = "none";
@@ -441,7 +435,6 @@ btnLoginElibro.addEventListener("click", function (e) {
     btnContinuarLogin.style.display = "block";
 
 });
-
 
 /* =========================================
    USUARIO REGRESA DESPUÉS DEL LOGIN
