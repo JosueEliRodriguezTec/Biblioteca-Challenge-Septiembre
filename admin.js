@@ -98,9 +98,9 @@ consulta.forEach((doc)=>{
 
                     <td>${formatearSatisfaccion(datos.satisfaccion)}</td>
 
-                    <td>${datos.temporada || "-"}</td>
-
                 <td>${formatearFecha(datos.fecha)}</td>
+
+                <td>${datos.temporada || "-"}</td>
 
                 
 
