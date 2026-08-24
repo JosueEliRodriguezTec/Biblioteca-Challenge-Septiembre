@@ -1,4 +1,18 @@
-    let jugador = JSON.parse(localStorage.getItem("jugador"));
+// =========================================
+// PROTECCIÓN DE ACCESO AL CHALLENGE
+// =========================================
+
+const autorizado =
+    sessionStorage.getItem("challengeIniciado");
+
+if(autorizado !== "true"){
+
+    window.location.href =
+        "https://josueelirodrigueztec.github.io/BiblioPrepaTec/index.html";
+
+}
+
+let jugador = JSON.parse(localStorage.getItem("jugador"));
 
     if(!jugador){
 
