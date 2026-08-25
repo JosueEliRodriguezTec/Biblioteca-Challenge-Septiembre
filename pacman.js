@@ -174,7 +174,7 @@ function mostrarVictoria(){
 let libros = [
     {
         id: 1,
-        url: "https://share.libbyapp.com/title/2893128",
+        url: "https://libbyapp.com/search/bibliotecatec/search/query-mexico/page-1/2893128",
         leido: false
     },
     {
@@ -184,7 +184,7 @@ let libros = [
     },
     {
         id: 3,
-        url: "https://share.libbyapp.com/title/8764389",
+        url: "https://libbyapp.com/search/bibliotecatec/search/query-mexico/page-1/8764389",
         leido: false
     },
     {
