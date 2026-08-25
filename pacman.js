@@ -184,7 +184,7 @@ let libros = [
     },
     {
         id: 3,
-        url: "https://libbyapp.com/search/bibliotecatec/search/query-mexico/page-1/2893386",
+        url: "https://share.libbyapp.com/title/8764389",
         leido: false
     },
     {
