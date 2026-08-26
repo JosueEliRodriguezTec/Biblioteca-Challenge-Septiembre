@@ -301,7 +301,7 @@ setInterval(()=>{
 
     moverPacman(movimientoY,movimientoX);
 
-},120);
+},132);
 
 document.addEventListener("keydown", function(e){
 
