@@ -1160,6 +1160,6 @@ body.nivel1 {
    NIVEL 1 - BAJAR TABLERO
 ========================================= */
 
-.board {
+html.nivel1 #board {
     transform: translateY(140px);
 }
