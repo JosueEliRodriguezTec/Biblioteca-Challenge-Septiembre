@@ -740,8 +740,8 @@ body{
 }
 
 /* =========================================
-   AJUSTE PARA PANTALLAS MÁS BAJAS
-   iPhone 14 Pro y similares
+   AJUSTE RESPONSIVE
+   Pantallas móviles de menor altura
 ========================================= */
 
 @media (max-width: 768px) and (max-height: 900px){
@@ -751,7 +751,7 @@ body{
     }
 
     #contenedor{
-        transform: translateY(-20px);
+        transform: translateY(-10px);
     }
 
     #laberinto{
@@ -760,19 +760,19 @@ body{
     }
 
     #controles{
-        grid-template-columns: repeat(3, 62px);
-        grid-template-rows: repeat(3, 62px);
+        grid-template-columns: repeat(3, 68px);
+        grid-template-rows: repeat(3, 68px);
         margin-top: 2px;
         gap: 0;
     }
 
     #controles button{
-        width: 62px;
-        height: 62px;
+        width: 68px;
+        height: 68px;
     }
 
     #controles img{
-        width: 62px;
-        height: 62px;
+        width: 68px;
+        height: 68px;
     }
 }
