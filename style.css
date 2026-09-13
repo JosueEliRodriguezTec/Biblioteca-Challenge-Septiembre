@@ -15,25 +15,34 @@
 }
     
     
-    body {
+   body {
 
-        -webkit-user-select:none;
+    -webkit-user-select: none;
+    user-select: none;
 
-    user-select:none;
+    -webkit-touch-callout: none;
 
-    -webkit-touch-callout:none;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        object-fit: cover;
-        font-family: "Nunito", sans-serif !important;
-        background-image: url("img/fondomexico1.png");
-        overflow: hidden;
-touch-action: none;
-    }
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: "Nunito", sans-serif !important;
+
+    background-image: url("img/fondomexico1.png");
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    touch-action: pan-y;
+
+}
 @media (max-width:992px) {
     .board{
         width: 100% !important;
