@@ -1155,3 +1155,11 @@ body.nivel1 {
     touch-action: none !important;
 
 }
+
+/* =========================================
+   NIVEL 1 - BAJAR TABLERO
+========================================= */
+
+.board {
+    transform: translateY(60px);
+}
