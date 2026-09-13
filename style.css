@@ -1141,3 +1141,17 @@ body{
     }
 
 }
+
+}/* =========================================
+   NIVEL 1 - SIN SCROLL
+   Sobrescribe el comportamiento de libros.html
+========================================= */
+
+html.nivel1,
+body.nivel1 {
+
+    overflow: hidden !important;
+
+    touch-action: none !important;
+
+}
