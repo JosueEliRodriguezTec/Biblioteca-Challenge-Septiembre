@@ -750,15 +750,19 @@ body{
         padding-top: 0;
     }
 
+    /* Bajamos solamente el juego */
     #contenedor{
-        transform: translateY(-10px);
+        transform: none;
+        padding-top: 45px;
     }
 
+    /* Laberinto */
     #laberinto{
         width: 90vw;
         height: 90vw;
     }
 
+    /* Controles */
     #controles{
         grid-template-columns: repeat(3, 68px);
         grid-template-rows: repeat(3, 68px);
