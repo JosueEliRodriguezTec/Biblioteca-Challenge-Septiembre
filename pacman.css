@@ -750,9 +750,9 @@ body{
         padding-top: 0;
     }
 
-    /* Bajamos solamente el juego */
+    /* Bajamos todo el juego un 5% aproximadamente */
     #contenedor{
-        transform: none;
+        transform: translateY(5%);
         padding-top: 60px;
     }
 
@@ -762,7 +762,7 @@ body{
         height: 99vw;
     }
 
-    /* Controles reducidos 20% */
+    /* Controles */
     #controles{
         grid-template-columns: repeat(3, 70px);
         grid-template-rows: repeat(3, 70px);
