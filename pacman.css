@@ -750,9 +750,9 @@ body{
         padding-top: 0;
     }
 
-    /* Bajamos todo el juego un 5% aproximadamente */
+    /* Laberinto + botones ligeramente más arriba */
     #contenedor{
-        transform: translateY(5%);
+        transform: translateY(-15px);
         padding-top: 60px;
     }
 
