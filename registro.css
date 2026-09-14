@@ -17,17 +17,16 @@ body{
     align-items: flex-start;
 }
 
-.contenedor{
-    min-height: 100vh;
-    align-items: flex-start;
-}
+
 
 .contenedor{
 
     width:100%;
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:flex-start;
+
+    min-height:100vh;
 
     padding:20px;
 
