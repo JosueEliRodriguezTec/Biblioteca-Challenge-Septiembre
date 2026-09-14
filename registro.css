@@ -10,11 +10,23 @@
 
 html,
 body{
-    height: auto;
-    min-height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    align-items: flex-start;
+
+    width:100%;
+
+    height:auto;
+
+    min-height:100%;
+
+    font-family:"Nunito",sans-serif;
+
+    background:#0d1b2a;
+
+    overflow-y:auto;
+
+    overflow-x:hidden;
+
+    align-items:flex-start;
+
 }
 
 
