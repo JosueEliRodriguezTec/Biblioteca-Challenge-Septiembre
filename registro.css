@@ -4,22 +4,22 @@
     box-sizing:border-box;
 }
 
+/* =========================================
+   REGISTRO - PERMITIR SCROLL
+========================================= */
+
 html,
 body{
+    height: auto;
+    min-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    align-items: flex-start;
+}
 
-    width:100%;
-    height:100%;
-
-    font-family:"Nunito",sans-serif;
-
-    background:#0d1b2a;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-        overflow:hidden;
-
-
+.contenedor{
+    min-height: 100vh;
+    align-items: flex-start;
 }
 
 .contenedor{
