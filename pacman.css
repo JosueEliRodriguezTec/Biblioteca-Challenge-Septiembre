@@ -756,27 +756,27 @@ body{
         padding-top: 60px;
     }
 
-    /* Laberinto - 10% más grande */
+    /* Laberinto */
     #laberinto{
         width: 99vw;
         height: 99vw;
     }
 
-    /* Controles - 30% más grandes */
+    /* Controles reducidos 20% */
     #controles{
-        grid-template-columns: repeat(3, 88px);
-        grid-template-rows: repeat(3, 88px);
+        grid-template-columns: repeat(3, 70px);
+        grid-template-rows: repeat(3, 70px);
         margin-top: 10px;
         gap: 0;
     }
 
     #controles button{
-        width: 88px;
-        height: 88px;
+        width: 70px;
+        height: 70px;
     }
 
     #controles img{
-        width: 88px;
-        height: 88px;
+        width: 70px;
+        height: 70px;
     }
 }
